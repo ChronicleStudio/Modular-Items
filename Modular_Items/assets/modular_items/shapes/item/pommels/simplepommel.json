@@ -1,0 +1,75 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Pommel",
+			"from": [ 3.0, 0.3, 8.0 ], 
+			"to": [ 3.0, 0.3, 8.0 ], 
+			"rotationOrigin": [ 3.0, 0.3, 8.0 ],
+			"faces": {
+				"north": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "pommel",
+					"from": [ 0.0, -0.2, 0.0 ], 
+					"to": [ 0.0, -0.2, 0.0 ], 
+					"rotationOrigin": [ 0.0, -0.2, 0.0 ],
+					"faces": {
+						"north": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+					},
+					"children": [
+						{
+							"name": "pommel_leftwing",
+							"from": [ -0.5, 0.1, -0.25 ], 
+							"to": [ 0.1, 0.3, 0.15 ], 
+							"rotationOrigin": [ 0.1, 0.25, -0.25 ],
+							"rotationY": -20.0,
+							"faces": {
+								"north": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"east": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"south": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"west": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"up": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"down": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+							}
+						},
+						{
+							"name": "pommel_rightwing",
+							"from": [ -0.5, 0.1, -0.15 ], 
+							"to": [ 0.1, 0.3, 0.25 ], 
+							"rotationOrigin": [ 0.1, 0.25, 0.25 ],
+							"rotationY": 20.0,
+							"faces": {
+								"north": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"east": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"south": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"west": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"up": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"down": { "texture": "#pommelmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

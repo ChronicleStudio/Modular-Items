@@ -1,0 +1,145 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Guard",
+			"from": [ 2.0, 0.6, 8.0 ], 
+			"to": [ 2.0, 0.6, 8.0 ], 
+			"rotationOrigin": [ 2.0, 0.6, 8.0 ],
+			"rotationY": 90.0,
+			"faces": {
+				"north": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "guard",
+					"from": [ -0.3, -0.3, -0.65 ], 
+					"to": [ 0.3, 0.3, 0.65 ], 
+					"rotationOrigin": [ -0.3, -0.35, -0.65 ],
+					"faces": {
+						"north": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"south": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+						"up": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+						"down": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 1.0 ] }
+					},
+					"children": [
+						{
+							"name": "guard_leftwing",
+							"from": [ 0.0, 0.15, 0.65 ], 
+							"to": [ 0.4, 0.45, 1.65 ], 
+							"rotationOrigin": [ 0.4, 0.3, 0.65 ],
+							"rotationX": -180.0,
+							"rotationY": 20.0,
+							"faces": {
+								"north": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"east": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+								"south": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"west": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+								"up": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+								"down": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 1.0 ] }
+							},
+							"children": [
+								{
+									"name": "guard_leftwing2",
+									"from": [ 0.0, 0.0, 1.0 ], 
+									"to": [ 0.4, 0.3, 1.5 ], 
+									"rotationOrigin": [ 0.0, 0.2, 1.0 ],
+									"rotationY": 20.0,
+									"faces": {
+										"north": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"east": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"south": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"west": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"up": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"down": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+									},
+									"children": [
+										{
+											"name": "guard_leftwing3",
+											"from": [ 0.0, 0.0, 0.5 ], 
+											"to": [ 0.4, 0.3, 1.0 ], 
+											"rotationOrigin": [ 0.4, 0.2, 0.5 ],
+											"rotationY": -30.0,
+											"faces": {
+												"north": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"east": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"south": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"west": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"up": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"down": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "guard_rightwing",
+							"from": [ 0.0, 0.15, 0.65 ], 
+							"to": [ 0.4, 0.45, 1.65 ], 
+							"rotationOrigin": [ 0.4, 0.35, 0.65 ],
+							"rotationY": 20.0,
+							"faces": {
+								"north": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"east": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+								"south": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"west": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 1.0, 0.5 ] },
+								"up": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+								"down": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 1.0 ] }
+							},
+							"children": [
+								{
+									"name": "guard_rightwing2",
+									"from": [ 0.0, 0.0, 1.0 ], 
+									"to": [ 0.4, 0.3, 1.5 ], 
+									"rotationOrigin": [ 0.0, 0.2, 1.0 ],
+									"rotationY": 20.0,
+									"faces": {
+										"north": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"east": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"south": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"west": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"up": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"down": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+									},
+									"children": [
+										{
+											"name": "guard_rightwing3",
+											"from": [ 0.0, 0.0, 0.5 ], 
+											"to": [ 0.4, 0.3, 1.0 ], 
+											"rotationOrigin": [ 0.4, 0.2, 0.5 ],
+											"rotationY": -30.0,
+											"faces": {
+												"north": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"east": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"south": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"west": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"up": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"down": { "texture": "#guardmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

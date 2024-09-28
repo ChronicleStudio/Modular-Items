@@ -1,0 +1,97 @@
+﻿[
+  {
+    "ingredientPattern": " B ,GH , P ",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "blade-*-*"
+      },
+      "G": {
+        "type": "item",
+        "code": "guard-*-*"
+      },
+      "H": {
+        "type": "item",
+        "code": "handle-*-*"
+      },
+      "P": {
+        "type": "item",
+        "code": "pommel-*-*"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "weapon"
+    }
+  },
+
+  {
+    "ingredientPattern": " B , H , P ",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "blade-*-*"
+      },
+      "H": {
+        "type": "item",
+        "code": "handle-*-*"
+      },
+      "P": {
+        "type": "item",
+        "code": "pommel-*-*"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "weapon"
+    }
+  },
+  {
+    "ingredientPattern": " B , H ,   ",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "blade-*-*"
+      },
+      "H": {
+        "type": "item",
+        "code": "handle-*-*"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "weapon"
+    }
+  },
+
+  {
+    "ingredientPattern": " B ,GH ,   ",
+    "width": 3,
+    "height": 3,
+    "ingredients": {
+      "B": {
+        "type": "item",
+        "code": "blade-*-*"
+      },
+      "G": {
+        "type": "item",
+        "code": "guard-*-*"
+      },
+      "H": {
+        "type": "item",
+        "code": "handle-*-*"
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "weapon"
+    }
+  }
+
+]

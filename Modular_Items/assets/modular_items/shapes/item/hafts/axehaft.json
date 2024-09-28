@@ -1,0 +1,34 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Haft",
+			"from": [ -1.0, 0.0, 7.5 ], 
+			"to": [ 12.0, 0.8, 8.3 ], 
+			"rotationOrigin": [ -1.0, 0.4, 8.0 ],
+			"faces": {
+				"north": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 13.0, 0.5 ] },
+				"east": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 13.0, 0.5 ] },
+				"west": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 13.0, 0.5 ] },
+				"down": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 13.0, 0.5 ] }
+			},
+			"attachmentpoints": [
+				{
+					"code": "Head",
+					"posX": "0.0","posY": "0.0","posZ": "0.0",
+					"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+				}
+			]
+		}
+	]}

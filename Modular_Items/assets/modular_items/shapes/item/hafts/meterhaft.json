@@ -1,0 +1,56 @@
+{
+	"editor": {
+		"backDropShape": "item/heads/beardedaxehead",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Haft",
+			"from": [ 5.0, 0.0, 8.0 ], 
+			"to": [ 5.0, 0.0, 8.0 ], 
+			"rotationOrigin": [ 5.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "haft",
+					"from": [ -6.0, 0.0, -0.4 ], 
+					"to": [ 10.0, 0.8, 0.4 ], 
+					"rotationOrigin": [ -6.0, 0.4, 0.0 ],
+					"faces": {
+						"north": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 16.0, 0.5 ] },
+						"east": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 16.0, 0.5 ] },
+						"west": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 16.0, 0.5 ] },
+						"down": { "texture": "#haftmaterial", "uv": [ 0.0, 0.0, 16.0, 0.5 ] }
+					}
+				}
+			],
+			"attachmentpoints": [
+				{
+					"code": "Head",
+					"posX": "5.0","posY": "0.0","posZ": "0.0",
+					"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+				},
+				{
+					"code": "Handle",
+					"posX": "-6.0","posY": "0.0","posZ": "0.0",
+					"rotationX": "0.0","rotationY": "0.0","rotationZ": "0.0"
+				}
+			]
+		}
+	]}

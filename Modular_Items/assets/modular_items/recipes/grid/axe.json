@@ -1,0 +1,23 @@
+﻿{
+  "ingredientPattern": "A  ,S  ,H  ",
+  "width": 3,
+  "height": 3,
+  "ingredients": {
+    "A": {
+      "type": "item",
+      "code": "axehead-*-*"
+    },
+    "S": {
+      "type": "item",
+      "code": "haft-*-*"
+    },
+    "H": {
+      "type": "item",
+      "code": "handle-*-*"
+    }
+  },
+  "output": {
+    "type": "item",
+    "code": "weapon"
+  }
+}

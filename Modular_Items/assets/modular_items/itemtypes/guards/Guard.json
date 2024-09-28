@@ -1,0 +1,116 @@
+﻿{
+  "code": "guard",
+  "class": "ItemComponent",
+  "variantGroups": [
+    {
+      "code": "name",
+      "states": [ "curved", "fancy", "smallcurved", "largecurved", "largecurved1circle", "largecurved2circle" ]
+    },
+    {
+      "code": "material",
+      "states": [ "copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "silver", "gold", "meteoriciron", "steel" ]
+    }
+  ],
+
+  "attributes": {
+    "toolProperties": {
+      "attackPower": 0.0,
+      "attackRange": 0.0,
+      "maxDurability": 200,
+      "toolTier": 0,
+      "miningspeed": {
+        "wood": 4,
+        "plant": 2.6,
+        "leaves": 2.2
+      },
+      "attackPowerMult": 0.0,
+      "attackRangeMult": 0.0,
+      "maxDurabilityMult": 0,
+      "toolTierMult": 0,
+      "miningSpeedMult": 0.0
+    }
+  },
+
+  "shape": { "base": "item/guards/{name}guard" },
+
+  "textures": {
+    "guardmaterial": { "base": "game:block/metal/ingot/{material}" }
+  },
+
+  "creativeInventory": {
+    "general": [ "*" ],
+    "item": [ "*" ]
+  },
+
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": -89,
+      "y": 47,
+      "z": 44
+    },
+    "origin": {
+      "x": 0.65,
+      "y": 0,
+      "z": 0.47
+    },
+    "scale": 1.68
+
+  },
+  "fpHandTransform": {
+
+    "translation": {
+      "x": -0.2,
+      "y": -1,
+      "z": 0
+    },
+    "rotation": {
+      "x": -45,
+      "y": 15,
+      "z": 90
+    },
+    "scale": 2.45
+
+
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 3.4
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.9,
+      "y": -0.01,
+      "z": -0.48
+    },
+    "rotation": {
+      "x": -81,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 1
+  }
+}

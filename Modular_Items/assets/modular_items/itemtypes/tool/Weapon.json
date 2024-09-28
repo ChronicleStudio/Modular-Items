@@ -1,0 +1,160 @@
+﻿{
+  "code": "weapon",
+  "class": "CompositeItemTool",
+  "damagedby": [ "blockbreaking", "attacking" ],
+  
+  "tool": "sword",
+
+  "attributes": {
+    "heldItemPitchFollow": 0.9,
+    "toolrackTransform": {
+        "translation": {
+          "x": -0.3,
+          "y": 0.89,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "scale": 1.78
+      
+    },
+    "groundStorageTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.1,
+        "z": -0.065
+      },
+      "rotation": {
+        "x": 20,
+        "y": 88,
+        "z": -87
+      },
+      "scale": 0.88
+    }
+  },
+
+  "behaviors": [
+    {
+      "name": "GroundStorable",
+      "properties": {
+        "layout": "WallHalves",
+        "wallOffY": 1,
+        "sprintKey": true,
+        "selectionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 1,
+          "y2": 0.1,
+          "z2": 1
+        },
+        "collisionBox": {
+          "x1": 0,
+          "y1": 0,
+          "z1": 0,
+          "x2": 0,
+          "y2": 0,
+          "z2": 0
+        }
+      }
+    }
+    
+  ],
+
+  "heldTpHitAnimation": "falx",
+
+  "storageFlags": 257,
+
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": -89,
+      "y": 47,
+      "z": 44
+    },
+    "origin": {
+      "x": 0.65,
+      "y": 0,
+      "z": 0.47
+    },
+    "scale": 1.68
+
+  },
+  "fpHandTransform": {
+
+    "translation": {
+      "x": -0.2,
+      "y": -1,
+      "z": 0
+    },
+    "rotation": {
+      "x": -45,
+      "y": 15,
+      "z": 90
+    },
+    "scale": 2.45
+
+
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 6
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.92,
+      "y": -0.01,
+      "z": -0.47
+    },
+    "rotation": {
+      "x": -81,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 1.1
+  },
+  "tpOffHandTransform": {
+    "translation": {
+      "x": -0.96,
+      "y": -0.01,
+      "z": -0.48
+    },
+    "rotation": {
+      "x": -81,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 1.1
+  }
+}

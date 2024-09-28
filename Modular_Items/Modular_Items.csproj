@@ -53,6 +53,12 @@
   <Content Include="assets\**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
   </Content>
+  <None Remove="assets\modular_items\itemtypes\heads\HammerHead.json" />
+  <None Remove="assets\modular_items\itemtypes\heads\MaceHead.json" />
+  <None Remove="assets\modular_items\recipes\grid\hammer.json" />
+  <None Remove="assets\modular_items\recipes\grid\mace.json" />
+  <None Remove="assets\modular_items\sounds\player\strike.ogg" />
+  <None Remove="assets\modular_items\sounds\player\strike2.ogg" />
   <Content Include="modinfo.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
   </Content>
